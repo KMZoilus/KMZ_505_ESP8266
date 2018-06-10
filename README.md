@@ -84,6 +84,22 @@ Do this ANY time you've made changes to the "sketch" (main) part of the ESP<br>
 
 1. Plug ESP to ANY usb power sorce (doesn't have to be PS4), go to network, set up internet connect, custom, PS4_KMZ_ESP, password is <b>password</b> , set everything to automatic. Done, go to user guide and the 5.05 exploit's playground main index page should open.
 
-2. After you run Vortex HEN once, your browser will be permanently enabled. I also suggest you select update blocker. At this point you should reboot ps4. <br>
+2. After you run Vortex HEN once, your browser will be permanently enabled. I also suggest you run  "update blocker". At this point you should reboot ps4. <br>
 
-If after reboot you don't see browser on home screen, go to the "library" section of the ps4 on main screen all the way to the right, look for the browser and start it, close it , it should now be on your home screen from now on.
+If after reboot you don't see browser on home screen, go to the "library" section of the ps4 on main screen all the way to the right, look for the browser and start it, close it , it should now be on your home screen from now on.<br>
+
+Also to access the exploit once browser is enabled, just type http://10.1.1.1 (or ANY address) and the browser will always default
+to your ESP Exploit index page. Of course this is only when the ps4 is connected to the esp via WIFI. You can now bookmark that page<br>
+
+whenever you run the admin option from the ps4 many options will not function and just kick back errors BUT you can change the 
+"config editor" from the ps4, changes will happen immediately though! <br>
+
+you can access the "admin" of your ESP from any browser as long as that device is connected via wifi to the ESP. You can type 10.1.1.1/admin.html or just 10.1.1.1 (or ANY site) on the browser then pick the Admin panel from the exploit. <br>
+
+When on the PS4 if you are running ADMIN I would suggest BEFORE you run a payload or exploit , that you do it from the MAIN Exploit's Playground Index page  and NOT from the Admin's "main page" located in the little upper left window. Exploits should still work fine
+but it may cause less of a problem that way. <br>
+
+for more info on exploit go to:  https://www.psxhax.com/threads/ps4-internal-webserver-project-for-esp8266-d1-mini-by-stooged.5740/
+<br>
+
+Many thanks to ALL devs involved in all PS4 projects and Stooged and KiiWii in particular! 
