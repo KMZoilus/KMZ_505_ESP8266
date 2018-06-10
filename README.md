@@ -54,9 +54,10 @@ Leave all other ADDR boxes as is (and all others unchecked)<br><br>
 
 8. Now click on the "START"  box .. it will take a few minutes to finish. <br>
 
-9. When done, unplug the ESP then plug it to any powered usb source, press and hold "reset" on the esp for like 3 seconds, let go and wait a few seconds. All KMZ files/payloads should be loaded! Login using info at top of page. read the <b>how to use once flash</b>
+9. When done, unplug the ESP then plug it to any powered usb source, press and hold "reset" on the esp for like 3 seconds, let go and wait a few seconds. All KMZ files/payloads should be loaded! Login using info at top of page. read the <b>how to use once fully flashed</b>
 section below.
 <br>
+
 # Set up instructions - Method 2  (nodeMCU pyFlasher 3.0)
 
 1. Download latest from here: https://github.com/marcelstoer/nodemcu-pyflasher/releases<br>
@@ -74,8 +75,15 @@ this ONLY flashes the main firmware/sketch to the ESP. When its done it will say
 
 7. IN the device's browser type:  "http://10.1.1.1/admin.html"  without quotes, you should see the admin page of the ESP, select "file uploader" , navigate to the "Payload Exploit Files" folder you downloaded from here, highlight ALL files and upload them. 
 
-6. when done, All KMZ files/payloads should be loaded! The ESP is fully flashed! Now go down to <b>how to use once flash</b> section below.
+6. when done, All KMZ files/payloads should be loaded! The ESP is fully flashed! Now go down to <b>how to use once flashed</b> section below.
 <br><br>
 
+# how to use once fully flashed
 
+Do this ANY time you've made changes to the "sketch" (main) part of the ESP<br>
 
+1. Plug ESP to ANY usb power sorce (doesn't have to be PS4), go to network, set up internet connect, custom, PS4_KMZ_ESP, password is <b>password</b> , set everything to automatic. Done, go to user guide and the 5.05 exploit's playground main index page should open.
+
+2. After you run Vortex HEN once, your browser will be permanently enabled. I also suggest you select update blocker. At this point you should reboot ps4. <br>
+
+If after reboot you don't see browser on home screen, go to the "library" section of the ps4 on main screen all the way to the right, look for the browser and start it, close it , it should now be on your home screen from now on.
