@@ -30,35 +30,9 @@ now it can be access via a browser on a device connected to the ESP or directly 
 (note: that some options on the ADMIN page will NOT work through the ps4 browser. Must use PC, Phone<br>
 etc.  for those options to work)<br><br>
 
-# Set up instructions - Method 1 (ESP tool v2.3)
-
-1. UNzip the ESP Tool v2.3 file<br>
-
-2. open ESP DL Tool v2.3 (run as admin)<br><br>
-
-3.. Put a check mark in the first two boxes under "download path config" leave all others unchecked.  Then click on the 3 dots to the right of the first checked mark box and select KMZ 505 MAIN.bin (name might be a little different but will have the word MAIN in it. Now change the ADDR box to   0x000000 <br><br>
-
-4. Go to the second checked mark box , click on the 3 dots to the right and choose the KMZ 505 FILES.bin (again, name might be a little different but will be a FILES.bin) from wherever you put it. To the right next to ADDR, in that box put   0x100000 <br>
-
-Leave all other ADDR boxes as is (and all others unchecked)<br><br>
-
-5. make all of the changes to the follow in the v2.3 tool (also, see the IMAGE file and match up the settings)<br>
-
-*CrystalFreq  = 40M<br>
-*DoNotChgBin   box should be checked, the SpiAutoSet  box should not be checked<br>
-*Spi Speed = 80MHz<br>
-*SPI Mode = DIO<br>
-*Flash Size = 4M<br>
-*Com Port = (whatever com port your esp8266 board is on)<br>
-*Baudrate = 115200<br><br>
-
-8. Now click on the "START"  box .. it will take a few minutes to finish. <br>
-
-9. When done, unplug the ESP then plug it to any powered usb source, press and hold "reset" on the esp for like 3 seconds, let go and wait a few seconds. All KMZ files/payloads should be loaded! Login using info at top of page. read the <b>how to use once fully flashed</b>
-section below.
 <br>
 
-# Set up instructions - Method 2  (nodeMCU pyFlasher 3.0)
+# Set up instructions -  (nodeMCU pyFlasher 3.0)
 
 1. Download latest from here: https://github.com/marcelstoer/nodemcu-pyflasher/releases<br>
 
@@ -66,23 +40,24 @@ section below.
 
 3. Plug in your ESP board. You can hold down flash button as you plug it in but its not needed with this program<br>
 
-4. Choose correct com port, browse location for wherever you put the "KMZ 505 Main.bin" you download from here and select<br>
+4. Choose correct com port, browse location for wherever you put the "bin" files you download from here and select.
+ <b>Firmware_only.bin</b> is just the admin firmware, after installing you can log in and via browser on your device upload
+ any files (self host) you want.
+ <b>Complete.bin</b> installs the firmware AND the KM.Z Exploit (you can always delete the files later and or add to them)<br>
 
 5. Set baud rate to: 115200, Flashmode to: Dual I/O (DIO), and "yes, wipe all data", then press "flash nodeMCU"
-this ONLY flashes the main firmware/sketch to the ESP. When its done it will say so. unplug the ESP then plug it to any powered usb source (even the ps4), press and hold "reset" on the esp for like 3 seconds, let go and wait a few seconds.<br> 
+this ONLY flashes the main firmware/sketch to the ESP. When its done it will say so. unplug the ESP then plug it to any powered usb source (even the ps4), after plugging it in, press and hold "reset" on the esp for like 3 seconds, let go and wait a few seconds.<br> 
 
-6. Now, you will now need to use a wifi device with a browser such as phone or pc. In this device place then entire "Payload Exploit Files" from above, into it.<br>
+6. Use any wifi device with browser , log into the ESP using credentials at top of this page, then in device's browser type:  "http://10.1.1.1/admin.html"  without quotes, you should see the admin page of the ESP. 
 
-7. IN the device's browser type:  "http://10.1.1.1/admin.html"  without quotes, you should see the admin page of the ESP, select "file uploader" , navigate to the "Payload Exploit Files" folder you downloaded from here, highlight ALL files and upload them. 
-
-6. when done, All KMZ files/payloads should be loaded! The ESP is fully flashed! Now go down to <b>how to use once flashed</b> section below.
+7. If you uploaded the "complete.bin" go to "main page" and the exploit should load. If you only did firmware, then it will have a plain payloads page loaded until you up load proper files using the file manager.
 <br><br>
 
 # how to use once fully flashed
 
-Do this ANY time you've made changes to the "sketch" (main) part of the ESP<br>
+<br>
 
-1. Plug ESP to ANY usb power sorce (doesn't have to be PS4), go to network, set up internet connect, custom, PS4_KMZ_ESP, password is <b>password</b> , set everything to automatic. Done, go to user guide and the 5.05 exploit's playground main index page should open.
+1. Plug ESP to ANY usb power sorce (doesn't have to be PS4), go to network, set up internet connect, custom, PS4_KMZ_ESP, password is <b>password</b> , set everything to automatic. Done, go to user guide and the 5.05 exploit's playground main index page should open if you used the "complete.bin" or if you've upload your own self host files proper.
 
 2. After you run Vortex HEN once, your browser will be permanently enabled. I also suggest you run  "update blocker". At this point you should reboot ps4. <br>
 
