@@ -1,3 +1,18 @@
+# Arduino ESP8266 mini board version UPDATE v2.3
+KM.Z ESP8266 Exploit Playground<br>
+
+Note:
+SSID= PS4_KMZ_ESP <br>
+Password= password
+
+
+1. Removed the Linux exploit, as most don't use it!<br>
+2. Added History blocker / UNblocker - read the info & description section in the exploit
+to find out more on what this does<br>
+
+3. Some minor changes to the layout and a couple of other minor stuff here and there.<br><br>
+
+
 # Arduino ESP8266 mini board version UPDATE v2.0
 KM.Z ESP8266 Exploit Playground<br>
 
