@@ -1,3 +1,15 @@
+# Arduino ESP8266 mini board version UPDATE v2.4
+KM.Z ESP8266 Exploit Playground<br>
+
+Note:
+SSID= PS4_KMZ_ESP <br>
+Password= password
+
+
+1. Added Vortex HEN v1.7<br>
+2. Other minor tweaks here and there<br><br>
+
+
 # Arduino ESP8266 mini board version UPDATE v2.3
 KM.Z ESP8266 Exploit Playground<br>
 
