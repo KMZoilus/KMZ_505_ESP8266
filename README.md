@@ -1,3 +1,8 @@
+# Arduino ESP8266 mini board version UPDATE v2.6
+1. Updated - AppToUSB to v3<br><br>
+2. Updated - DB & SG (database & save game back up) to v3<br><br>
+
+
 # Arduino ESP8266 mini board version UPDATE v2.5
 1. Updated the Hen in Mira + Hen to Vortex's v1.7<br><br>
 2. Added - Hen + Loader. This will load Vortex Hen v1.7 plus the bin/payload loader at the same time! <br>
