@@ -1,3 +1,12 @@
+# Arduino ESP8266 mini board version UPDATE v2.7
+1. Fixed - ApptoUSB v3.0<br>
+2. Fixed - HEN + Bin Loader<br>
+3. Added - Vortex Hen + VR <br>
+4. Added - BO3 Online<br>
+5. Added - DB Restore v2.0 and DB Restore UNDO v2.0<br>
+6. Other various tweaks and changes and updated info & description page<br><br>
+
+
 # Arduino ESP8266 mini board version UPDATE v2.6
 1. Updated - AppToUSB to v3<br><br>
 2. Updated - DB & SG (database & save game back up) to v3<br><br>
