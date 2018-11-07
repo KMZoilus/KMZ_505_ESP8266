@@ -1,3 +1,9 @@
+# Arduino ESP8266 mini board version UPDATE v2.8
+1. Added HEN 1.8 by Zecoxao<br>
+2. Updated AppToUsb to v4<br><br>
+
+
+
 # Arduino ESP8266 mini board version UPDATE v2.7
 1. Fixed - ApptoUSB v3.0<br>
 2. Fixed - HEN + Bin Loader<br>
