@@ -1,3 +1,6 @@
+# Arduino ESP8266 mini board version UPDATE v3.0
+1. Added webRTE v1.0 by Tylermods<br><br>
+
 # Arduino ESP8266 mini board version UPDATE v2.9
 1. Added PS4REN - PS4 Remote Play Enabler. Stream and control your PS4 from PC, Android device or your PS Vita<br>
   by Golden and SiSTRO<br>
