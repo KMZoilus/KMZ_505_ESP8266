@@ -1,3 +1,11 @@
+# Arduino ESP8266 mini board version UPDATE v4.1
+1. Added HENs 2.1.2 & 2.1.3 by Sistro <br>
+2. Added HEN 2.1.4 by xXxthedarkprogramerxXx (a fork of 2.1.3 that fixes a few things)<br>
+3. Added HEN VR 2.1 by SiSTRo<br>
+4. Updated webRTE<br>
+5. Removed various outdated HENs and other outdated homebrews. <br>
+6. Updated the more info section to reflect changes. <br><br>
+
 # Arduino ESP8266 mini board version UPDATE v3.0
 1. Added webRTE v1.0 by Tylermods<br><br>
 
